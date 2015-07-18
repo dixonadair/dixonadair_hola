@@ -1,5 +1,9 @@
 require "dixonadair_hola/version"
 
 module DixonadairHola
-  # Your code goes here...
+	class Hola
+		def self.hi
+			puts "Hello world!"			
+		end
+	end
 end
